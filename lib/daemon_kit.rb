@@ -9,6 +9,7 @@ if RUBY_VERSION >= "1.9"
   rescue LoadError
   end
 end
+gem 'eventmachine'
 require 'eventmachine'
 
 require File.dirname(__FILE__) + '/daemon_kit/core_ext'
